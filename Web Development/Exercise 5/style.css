@@ -1,0 +1,27 @@
+/* style.css */
+
+/* External CSS */
+p {
+    color: aqua;
+    background-color: blue;
+    text-align: center;
+}
+.green-text {
+    color: green;
+    background-color: yellowgreen;
+}
+.yellow-text {
+    color: yellow;
+    background-color: black;
+}
+#small-text {
+    font-size: 14px;
+}
+
+#medium-text {
+    font-size: 18px;
+}
+
+#large-text {
+    font-size: 24px;
+}

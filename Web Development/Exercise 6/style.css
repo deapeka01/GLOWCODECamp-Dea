@@ -1,0 +1,37 @@
+/* style.css */
+
+/* Styling for parent container */
+.container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+/* Styling for cards */
+.card {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 10px solid #b69191;
+    border-radius: 10px;
+}
+
+/* Additional styling for individual cards */
+.card:nth-child(1) {
+    color: rgba(237, 39, 39, 0.432);
+    padding-left: 40px;
+    background-color: #edd26f;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card:nth-child(2) {
+    color: rgb(100, 100, 212);
+    padding-left: 40px;
+    margin-right: 10px;
+    background-color: #de9ada;
+    text-align: center;
+    font-weight: bold;
+}

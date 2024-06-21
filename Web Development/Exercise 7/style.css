@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center;
+    height: 100vh;
+    background-color: #efecc0;
+}
+
+/* Styling for the navigation menu */
+header {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    border: 2px solid #fff; /* Added border */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* Align list items to the right */
+    margin-right: 20px; /* Added margin to move list away from the right edge */
+}
+
+li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px; 
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Background color change on hover */
+    border-radius: 5px; 
+}
+
+/* Styling for the container holding the title */
+.container {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column; /* Ensure children are in a column */
+    justify-content: flex-end; /* Align items to the bottom */
+    align-items: center; /* Center items horizontally */
+    background-image: url('https://i.ytimg.com/vi/ZJJJD6ZWk1k/maxresdefault.jpg'); /* Background image */
+    background-size: cover; /* Ensure the image covers the entire container */
+    padding: 20px; /*padding for spacing*/
+}
+
+/* Styling for the title */
+.title {
+    font-size: 2em;
+    color: #b4ae10;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background*/
+    padding: 5px; /* Added padding for better appearance */
+    border-radius: 10px; /* Add rounded corners */
+    margin-bottom: -10px; /* Add margin to separate from the bottom */
+}

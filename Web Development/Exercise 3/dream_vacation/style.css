@@ -1,0 +1,53 @@
+/* Main container */
+.dream-vacation {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Description section */
+.description {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Images section */
+.images {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.image-gallery {
+    /*display: flex;
+    justify-content: space-between;*/
+     /*These concepts might be a little to much info at the moment, but 
+    we can go back to it later during the course*/
+    margin-top: 10px;
+}
+
+.image-gallery img {
+    width: 30%;
+    border-radius: 8px;
+}
+
+/* Activities section */
+.activities {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.activities h3 {
+    margin-bottom: 10px;
+}
+
+.activities ol {
+    margin-left: 20px;
+}
+
+.activities li {
+    margin-bottom: 5px;
+}
