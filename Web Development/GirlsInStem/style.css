@@ -1,0 +1,229 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e4d7d8;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 50px; 
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #eee;
+}
+
+.hero {
+    color: #8e097e;
+    text-align: center;
+    padding: 30px 50px;
+}
+
+.hero-content {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-image: url("images/gs12.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:380px; 
+    position: relative;
+    
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #435ca2;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #f03e53;
+}
+
+.gallery {
+    padding: 50px 40px;
+    margin: 20px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #334f9e;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    justify-items: center;
+}
+
+.gallery-item {
+    text-align: center;
+    border: 1.2px solid #b45ebf;
+    border-radius: 20px;
+    border-style: groove;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.gallery-item h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.about {
+    padding: 80px 20px;
+    background-color: #f7b4be;
+    text-align: center;
+    background-image: url("images/seam.jpg");
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: #212c42;
+    margin-bottom: 20px;
+}
+
+.events {
+    padding: 80px 20px;
+    margin: 20px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    background-image: url("images/3247268.jpg");
+}
+
+.events h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.event-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.event-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.event-card p {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.event-link {
+    display: inline-block;
+    background-color: #b04c88;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.event-link:hover {
+    background-color: #6b367d;
+}
+
+.footer {
+    background-color: #64566594;
+    color: #9c498d;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.social-icon:hover {
+    color: #ff6b81;
+}
